@@ -1,4 +1,7 @@
 function divide(num1, num2) {
-    divide = num1 / num2;
-    return console.log(divide);
+    if(num2 === 0) return ("No se puede dividir por 0");
+    return num1 / num2;
+}
+module.exports = {
+    divide
 }
